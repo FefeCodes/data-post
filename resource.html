@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Directory</title>
+    <link rel="stylesheet" href="./resource.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div class="main-container">
+        <div class="heading">
+            <h2>Welcome</h2>
+        </div>
+        <div class="button">
+            <button id="add-button" type="button">Create A Resource</button>
+        </div>
+    </div>
+
+    <div class="display-container" id="display-container">
+            <!-- <div class="research-item">
+                <div class="title-and-icon">
+                    <a href="#">Website for Nasa Data</a>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                <div class="body-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est laboriosam cum possimus nulla nemo soluta.</p>
+                </div>
+            </div> -->
+    </div>
+
+
+
+<div class="modal-overlay" id="modal-overlay">
+    <div class="overlay-container" id="overlay-container">
+        <div class="close-icon-container">
+            <i class="fa-solid fa-x" id="close-icon"></i>
+        </div>
+        <div class="form-title">
+            <h3>Add Resource Item</h3>
+        </div>
+
+        <div class="modal-forma">
+            <form class="form" id="form">
+
+                <div class="input-group">
+                    <label for="text">Name of Website</label>
+                    <input type="text" name="text" id="text" placeholder="e.g Data Analysis Website For NASA"></input>
+                </div>
+        
+                <div class="input-group">
+                    <label for="text">List of Website</label>
+                    <input type="text" name="text" id="text2" placeholder="www.link.com"></input>
+                </div>
+        
+                <div class="input-group">
+                    <label for="description">Description of Website</label>
+                    <textarea name="description" id="description" placeholder="Enter Description"></textarea>
+                </div>
+        
+                <div class="button-container">
+                    <button type="submit" id="submit-button">Create</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</div>
+    
+
+    <script src="./resource.js"></script>
+</body>
+</html>
